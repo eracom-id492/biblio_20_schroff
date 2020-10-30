@@ -1,0 +1,53 @@
+@media (min-width: 481px) {
+  nav h1 span{
+    position: absolute;
+    clip: rect(0,0,0,0)
+  }
+}
+
+@media (min-width: 481px) {
+  nav h1 a::before{
+    content: attr(data-abbr);
+    display: inline-block;
+    width: 10rem;
+    height: 7.5rem;
+    border-radius: 50%;
+    background-color: #335271;
+    text-align: center;
+    color: white;
+    padding-top: 2.5rem;
+    font-family: fantasy;
+    font-size: 250%;
+
+    }
+  }
+
+nav a {
+    display: block;
+    padding: .4em 1em;
+    text-decoration: none;
+    color: #red;
+    }
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+  background: #49535D;
+}
+
+@media (min-width: 1025px) {
+  nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+nav a:nth-last-of-type(-n+2) {
+  order: -1;
+}
+
+@media (min-width:481px) {
+
+
+}
