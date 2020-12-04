@@ -14,19 +14,19 @@ header {
  order: 1;
 }
 footer {
- background-color: hsl(72,70%,80%);
+ background-color: hsl(200,70%,80%);
  order: 5;
 }
 main   {
- background-color: hsl(144,70%,80%);
+ background-color: hsl(254,70%,80%);
  order: 3;
 }
 nav    {
- background-color: hsl(216,70%,80%);
+ background-color: hsl(154,70%,80%);
  order: 2;
 }
 aside  {
- background-color: hsl(288,70%,80%);
+ background-color: hsl(108,70%,80%);
  order: 4;
 }
 

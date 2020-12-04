@@ -1,0 +1,21 @@
+h1{
+	font-family:"Epilogue", sans-serifs;
+	text-align:center;
+}
+
+.paragraphe{
+	display:flex;
+	height:300px;
+	width:50%;
+	max-width: 1920px;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+
+
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+
+}

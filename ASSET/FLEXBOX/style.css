@@ -1,0 +1,135 @@
+.father {
+	display: flex;
+	align-items: flex-start;
+}
+.father span:first-of-type {
+	display: flex;
+	flex-direction: column;
+	width: .8em;
+	text-align: center;
+	border-style: groove;
+  border-width: thick;
+}
+input:checked ~ .father span:first-of-type {
+	flex-direction: column-reverse;
+
+}
+
+/* deco */
+body {
+  font-family: helvetica, arial, sans-serif;
+	font-weight: bold;
+  background-image: url("BG_grid.png");
+  padding: 2em 5em;
+	font-size: 1.4em;
+  background-size: 256px;
+  background-repeat: repeat;
+
+}
+
+input[type=checkbox] {
+	transform: scale(1.4);
+}
+.father {
+  margin-top: .2em;
+	font-family: 'Cousine', monospace;
+	letter-spacing: 2px;
+	font-size: 5rem;
+	line-height: 1.1;
+}
+.father span {
+	background: #fffb96;
+	color: #ff71ce;
+	padding: 6px 8px 0;
+	margin-right: 4px;
+	border-radius: 3px;
+}
+.father span i {
+  display: block;
+  font-style: normal;
+	flex: 1;
+	padding-top: 6px;
+	padding-bottom: 0;
+}
+.father span:first-of-type {
+	padding-top: 0;
+	padding-bottom: 0;
+	background: #fffb96;
+	color: #ff71ce;
+	overflow: hidden;
+
+}
+.father span:first-of-type i:first-of-type {
+  margin-left: -8px;
+	margin-right: -8px;
+	background: #b967ff;
+	color: #01cdfe;
+
+}
+h1 {
+  margin-bottom: 1.6em;
+	color: #fffb96;
+  background-color: #ff71ce;
+  text-align: center;
+  text-shadow: 5px 5px #b967ff;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: groove;
+  border-width: thick;
+  max-width: 20em;
+
+
+
+}
+p {
+	margin-top: 4em;
+	font-size: 0.6em;
+	color: #fffb96;
+}
+p a {
+	color: #fffb96;
+
+}
+label{
+  color: #ff71ce;
+  background-color: #fffb96;
+	border-radius: 10px;
+	padding: 5px;
+	border-style: groove;
+  border-width: thick;
+}
+
+span{
+	border-style: groove;
+	border-width: thick;
+
+}
+input{
+	width: 20px;
+	height: 20px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+	z-index: -1;
+	margin: auto;
+	min-width: 100%;
+	min-height: 100%
+}
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
