@@ -268,9 +268,3 @@ ul { list-style:none; margin:0; padding:0 }
   position:relative;
   left:1px;
 }
-#watch .digit-minutes li {
-  animation:dsm 3600s steps(60, end) 0s infinite;
-}
-#watch .digit-seconds li {
-  animation:dsm 60s steps(60, end) 0s infinite;
-}
